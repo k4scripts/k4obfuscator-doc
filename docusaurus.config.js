@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'K4Obfuscator',
-  tagline: 'Free and in continuous development',
+  tagline: 'Free Lua Obfuscator!',
   url: 'https://k4scripts.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -115,7 +115,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} K4Scripts, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} K4Scripts' Team.`,
       },
       prism: {
         theme: lightCodeTheme,
