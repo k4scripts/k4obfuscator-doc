@@ -7,7 +7,7 @@ sidebar_position: 1
 <table> K4_INLINE(<void>)
 ```
 
-Inline the current function by removing it from functions list.
+Inline the current function and remove it from functions list.
 
 
 ℹ️ Suggested for non-recursive functions, as deep recursions could fallback to errors.
