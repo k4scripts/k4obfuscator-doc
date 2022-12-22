@@ -41,7 +41,7 @@ if r then
 end
 ```
 :::info
-In this example, attackers can't simply patch `if id == 123 then` check (inside `check_id` function), they would have to patch it every time you use `check_id`.
+In this example, attackers can't simply patch `if id == 123 then` check (inside `check_id` function), as they would have to patch it every time you use `check_id`.
 :::
 
 ## ✅ Correct Usage
