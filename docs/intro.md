@@ -19,6 +19,7 @@ Get started by **requesting an obfuscation key to K4Obfuscator bot**.
 
 Let's prepare a script to obfuscate..
 ```lua
+-- #script.lua
 local n = {'a', 'b', 'c'};
 local function f()
   local r = '';
@@ -33,9 +34,3 @@ print(f());
 Start obfuscating by running `/obfuscate <key>`.
 
 The bot will prompt you a display with buttons that will help you setup your obfuscation environment:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-**Remember** your **key is valid for 12 hours**, and you **can not obfuscate more scripts at once**.
