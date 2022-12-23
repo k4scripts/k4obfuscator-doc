@@ -18,7 +18,7 @@ This macro allow you to verify stack integrity or perform low level operations w
 ```lua
 -- #script.lua
 local var = 10;
-local stack = K4_STACK(); -- script.lua chunk' stack
+local stack = K4_STACK(); -- chunk stack
 
 local function closure()
   -- get current closure stack
@@ -43,8 +43,8 @@ end
 ```lua
 -- #script.lua
 local var = 10;
-local get_stack = K4_STACK; -- macros don't support assignments
-local stack = get_stack();
+local get_stack = K4_STACK; -- trying to assign nil to variable
+local stack = get_stack();  -- calling nil value
 
 stack[1] = 20; -- due to VM protections, stack won't follow "expected" positions
 if var == 20 then
