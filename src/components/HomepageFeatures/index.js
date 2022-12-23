@@ -5,6 +5,7 @@ import styles from './styles.module.css';
 import freedom from '@site/static/img/freedom.png';
 import fast from '@site/static/img/fast.png';
 import security from '@site/static/img/security.png';
+import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
@@ -22,7 +23,7 @@ const FeatureList = [
     description: (
       <div>
         K4Obfuscator is frequently updated to maintain a decent obfuscation level meant to be used for simple obfuscation purposes.
-        <br></br><code>Rely on premium obfuscators for more secure obfuscation.</code>
+        <br></br><Link to={'/blog/security'}>Read more...</Link>
       </div>
     ),
   },
@@ -31,7 +32,7 @@ const FeatureList = [
     Png: fast,
     description: (
       <>
-        K4Obfuscator vm architecture allow fast code execution which is likely faster than the original code.
+        K4Obfuscator VM architecture allow fast code execution which is likely faster than the original code.
       </>
     ),
   },
