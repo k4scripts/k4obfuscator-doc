@@ -15,9 +15,9 @@ For this reason we decided to bring what's good from past obfuscation methods an
 *We designed this obfuscator as a free obfuscation service to share your scripts. But we surely encourage using paid obfuscators for commercial purposes which require high obfuscation standards*
 
 ### Motivation
-This is what we mean for "play it straight", main goals behind this project is to bring a free obfuscator for personal usages and at the same time construct a solid and healthy development thanks to an ads key system which allow us to host this service for free!
+This is what we mean for "play it straight", the main goals behind this project is to create a free obfuscator for personal use. We are able to keep this service free thanks to our ad-key based system.
 
 ### Logging scripts
-**Absolutly no**, even if this allow malicius scripts to be obfuscated **we don't provide any type of logs** like constants logging etc.
+**Absolutly no**, even if this would allow malicius scripts to be obfuscated using this **we don't provide any type of logs**.
 
 ![K4Obfuscator Logo](./k4obfuscator-logo.jpg)
