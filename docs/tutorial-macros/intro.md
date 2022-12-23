@@ -14,7 +14,7 @@ We are working on a solution to allow this feature, as a simple wrapper around s
 
 ### 📦 Universal Macros Support
 
-In case you want your script working before obfuscation, you can define environment macros to simulate them.
+To prevernt your script from crashing after using macros, you can define environment macros to simulate them.
 
 ```lua
 -- #script.lua

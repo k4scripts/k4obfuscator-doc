@@ -8,7 +8,7 @@ Let's discover **K4Obfuscator in less than 5 minutes**.
 
 ## Getting Started
 
-Get started by **requesting an obfuscation key to K4Obfuscator bot**.
+Get started by **requesting an obfuscation key from the K4Obfuscator bot**.
 
 ### What you'll need
 
