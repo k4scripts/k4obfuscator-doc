@@ -32,7 +32,7 @@ const FeatureList = [
     Png: fast,
     description: (
       <>
-        K4Obfuscator VM architecture allow fast code execution which is likely faster than the original code.
+        K4Obfuscator's VM architecture allows fast code execution, which is likely faster than the original code.
       </>
     ),
   },
