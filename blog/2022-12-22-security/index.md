@@ -7,7 +7,7 @@ tags: [security, k4obfuscator]
 
 This is a fair introduction to our project, K4Obfuscator.
 
-### Security 🔔
+### 🔔 Security 
 It's quite a delicate matter to introduce a new lua obfuscator nowday, as it is likely to be a fork from a past obfuscator. Indeed there were cases in which some "devs" faked to bring a new fresh obfuscator as a paid service.
 
 For this reason we decided to bring what's good from past obfuscation methods and start implementing new features that would make our **free service** unique and updated. 
