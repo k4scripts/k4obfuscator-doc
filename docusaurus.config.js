@@ -111,6 +111,12 @@ const config = {
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+            metadata: [
+                {
+                    name: "keywords",
+                    content: "lua, free, obfuscate, obfuscator, roblox, secure, fast"
+                }
+            ],
             colorMode: {
                 defaultMode: "dark"
             },
