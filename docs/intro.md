@@ -13,13 +13,14 @@ Get started by **requesting an obfuscation key from the K4Obfuscator bot**.
 
 ### What you'll need
 
-- [Discord](https://k4scripts.xyz/discord)
-- [Lua Script](https://www.lua.org/manual/5.1/):
-  * You must follow Lua 5.1 syntax, as VM generation is developed around it.
+-   [Discord](https://k4scripts.xyz/discord)
+-   [Lua Script](https://www.lua.org/manual/5.1/):
+    -   You must follow Lua 5.1 syntax, as VM generation is developed around it.
 
 ## Obfuscate your first script
 
 Let's prepare a script to obfuscate..
+
 ```lua
 -- #script.lua
 local n = {'a', 'b', 'c'};
@@ -35,4 +36,4 @@ print(f());
 
 Start obfuscating by running `/obfuscate <key>`.
 
-The bot will prompt you a display with buttons that will help you setup your obfuscation environment: *Cooming soon*
+The bot will prompt you a display with buttons that will help you setup your obfuscation environment: _Cooming soon_

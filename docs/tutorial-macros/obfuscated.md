@@ -3,9 +3,11 @@ sidebar_position: 5
 ---
 
 # K4_OBFUSCATED
+
 ```md
 <bool> K4_OBFUSCATED(<void>)
 ```
+
 Return `true` if the script is obfuscated, otherwise return `false`.
 
 ## Purpose

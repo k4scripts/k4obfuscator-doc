@@ -7,6 +7,7 @@ sidebar_position: 0
 Macros allow you to directly interact with the obfuscation process enhanching protection and obfuscation level.
 
 ### ⚠️ Macros Limitations
+
 **Currently you can not assign macros to variables**, as this operation isn't supported by the obfuscator.
 :::info
 We are working on a solution to allow this feature, as a simple wrapper around some macros can solve this problem.

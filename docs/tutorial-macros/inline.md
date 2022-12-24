@@ -3,12 +3,12 @@ sidebar_position: 1
 ---
 
 # K4_INLINE
+
 ```md
 <table> K4_INLINE(<void>)
 ```
 
 Inline the current function and remove it from functions list.
-
 
 ℹ️ Suggested for non-recursive functions, as deep recursions could lead to errors.
 
@@ -17,6 +17,7 @@ Inline the current function and remove it from functions list.
 This macro avoid attackers from easily patching specific instructions or reverse the script.
 
 ## Example
+
 ```lua
 -- #script.lua
 local id = 123;
@@ -40,6 +41,7 @@ if r then
   print('hello')
 end
 ```
+
 :::info
 In this example, attackers can't simply patch `if id == 123 then` check (inside `check_id` the function), as they would have to patch it every time you use `check_id`.
 :::
