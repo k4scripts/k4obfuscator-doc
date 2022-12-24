@@ -3,11 +3,12 @@ sidebar_position: 2
 ---
 
 # K4_CRASH
+
 ```md
 <void> K4_CRASH(<void>)
 ```
 
-Abruptly crashes the VM state. 
+Abruptly crashes the VM state.
 
 ## Purpose
 

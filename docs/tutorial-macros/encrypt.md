@@ -3,11 +3,12 @@ sidebar_position: 2
 ---
 
 # K4_ENCRYPT
+
 ```md
 <string> K4_ENCRYPT(<string>)
 ```
 
-Protect a string from constants dumping. 
+Protect a string from constants dumping.
 
 ## Purpose
 
