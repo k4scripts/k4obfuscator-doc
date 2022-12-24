@@ -32,6 +32,14 @@ const config = {
 
     headTags: [
         {
+            tagName: "link",
+            attributes: {
+                rel: "sitemap",
+                type: "application/xml",
+                href: "/sitemap.xml"
+            }
+        },
+        {
             tagName: "meta",
             attributes: {
                 name: "theme-color",
@@ -73,6 +81,12 @@ const config = {
                 },
                 theme: {
                     customCss: require.resolve("./src/css/custom.scss")
+                },
+                sitemap: {
+                    changefreq: "weekly",
+                    priority: 0.5,
+                    ignorePatterns: [],
+                    filename: "sitemap.xml"
                 }
             })
         ]
