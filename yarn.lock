@@ -1797,7 +1797,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/module-type-aliases@npm:2.2.0":
+"@docusaurus/module-type-aliases@npm:2.2.0, @docusaurus/module-type-aliases@npm:^2.2.0":
   version: 2.2.0
   resolution: "@docusaurus/module-type-aliases@npm:2.2.0"
   dependencies:
@@ -2776,6 +2776,13 @@ __metadata:
   version: 0.2.0
   resolution: "@trysound/sax@npm:0.2.0"
   checksum: 11226c39b52b391719a2a92e10183e4260d9651f86edced166da1d95f39a0a1eaa470e44d14ac685ccd6d3df7e2002433782872c0feeb260d61e80f21250e65c
+  languageName: node
+  linkType: hard
+
+"@tsconfig/docusaurus@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "@tsconfig/docusaurus@npm:1.0.6"
+  checksum: fb0d7965c01fe64fc6369a72695b903d654bd5fb145f373d707c2bae3c2d828703517d812cef1c041ae44b108f44e52778b9d9837a54fdf782e68e6619a90a4d
   languageName: node
   linkType: hard
 
@@ -6924,16 +6931,19 @@ __metadata:
   resolution: "k4obfuscator-doc@workspace:."
   dependencies:
     "@docusaurus/core": ^2.2.0
+    "@docusaurus/module-type-aliases": ^2.2.0
     "@docusaurus/plugin-sitemap": ^2.2.0
     "@docusaurus/preset-classic": ^2.2.0
     "@easyops-cn/docusaurus-search-local": ^0.33.6
     "@mdx-js/react": 1.6.22
+    "@tsconfig/docusaurus": ^1.0.6
     clsx: ^1.2.1
     docusaurus-plugin-sass: ^0.2.2
     prism-react-renderer: ^1.3.5
     react: ^18.2.0
     react-dom: ^18.2.0
     sass: ^1.57.1
+    typescript: ^4.9.4
   languageName: unknown
   linkType: soft
 
@@ -10284,6 +10294,26 @@ __metadata:
   dependencies:
     is-typedarray: ^1.0.0
   checksum: 99c11aaa8f45189fcfba6b8a4825fd684a321caa9bd7a76a27cf0c7732c174d198b99f449c52c3818107430b5f41c0ccbbfb75cb2ee3ca4a9451710986d61a60
+  languageName: node
+  linkType: hard
+
+"typescript@npm:^4.9.4":
+  version: 4.9.4
+  resolution: "typescript@npm:4.9.4"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: e782fb9e0031cb258a80000f6c13530288c6d63f1177ed43f770533fdc15740d271554cdae86701c1dd2c83b082cea808b07e97fd68b38a172a83dbf9e0d0ef9
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@^4.9.4#~builtin<compat/typescript>":
+  version: 4.9.4
+  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 1caaea6cb7f813e64345190fddc4e6c924d0b698ab81189b503763c4a18f7f5501c69362979d36e19c042d89d936443e768a78b0675690b35eb663d19e0eae71
   languageName: node
   linkType: hard
 
