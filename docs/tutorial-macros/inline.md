@@ -10,7 +10,7 @@ sidebar_position: 1
 Inline the current function and remove it from functions list.
 
 
-ℹ️ Suggested for non-recursive functions, as deep recursions could fallback to errors.
+ℹ️ Suggested for non-recursive functions, as deep recursions could lead to errors.
 
 ## Purpose
 
@@ -41,7 +41,7 @@ if r then
 end
 ```
 :::info
-In this example, attackers can't simply patch `if id == 123 then` check (inside `check_id` function), as they would have to patch it every time you use `check_id`.
+In this example, attackers can't simply patch `if id == 123 then` check (inside `check_id` the function), as they would have to patch it every time you use `check_id`.
 :::
 
 ## ✅ Correct Usage

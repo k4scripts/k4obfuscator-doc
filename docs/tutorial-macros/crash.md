@@ -11,7 +11,7 @@ Abruptly crashes the VM state.
 
 ## Purpose
 
-This macro allow you to stop vm execution resulting to an infinite loop and corrupted memory, usefull for client protection.
+This macro allow you to stop vm execution resulting in an infinite loop and corrupted memory, usefull for client protection.
 
 ## ✅ Correct Usage
 
