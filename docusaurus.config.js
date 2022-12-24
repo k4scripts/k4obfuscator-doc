@@ -39,14 +39,14 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'og:image',
-        content: 'https://k4scripts.xyz/k4logo.webp',
+        content: 'https://k4scripts.xyz/static/k4logo.webp',
       },
     },
     {
       tagName: 'meta',
       attributes: {
         name: 'twitter:image',
-        content: 'https://k4scripts.xyz/k4logo.webp',
+        content: 'https://k4scripts.xyz/static/k4logo.webp',
       },
     },
   ],
