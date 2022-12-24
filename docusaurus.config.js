@@ -32,7 +32,7 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'theme-color',
-        content: '#2ae8db',
+        content: '#50c878',
       },
     },
     {
