@@ -27,6 +27,30 @@ const config = {
     locales: ['en'],
   },
 
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'theme-color',
+        content: '#2ae8db',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'og:image',
+        content: 'https://k4scripts.xyz/k4logo.webp',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:image',
+        content: 'https://k4scripts.xyz/k4logo.webp',
+      },
+    },
+  ],
+
   presets: [
     [
       'classic',
