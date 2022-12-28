@@ -4,11 +4,14 @@ sidebar_position: 1
 
 # K4_INLINE
 ```md
-<table> K4_INLINE(<void>)
+<table> K4_INLINING_START(<bool>)
 ```
 
 Inline the current function and remove it from functions list.
 
+:::info
+If the passed <bool> is `true`, all sub functions will be inlined.
+:::
 
 ℹ️ Suggested for non-recursive functions, as deep recursions could lead to errors.
 
@@ -21,7 +24,7 @@ This macro avoid attackers from easily patching specific instructions or reverse
 -- #script.lua
 local id = 123;
 local function check_id()
-  K4_INLINE()
+  K4_INLINING_START(false)
   if id == 123 then
     return true;
   end;
@@ -49,7 +52,7 @@ In this example, attackers can't simply patch `if id == 123 then` check (inside 
 ```lua
 -- #script.lua
 local f = function()
-  K4_INLINE();
+  K4_INLINING_START(); -- ignored as no parameters are passed
   print('Hello', 'World');
 end;
 
@@ -60,10 +63,10 @@ f();
 
 ```lua
 -- #script.lua
-K4_INLINE(); -- ignored
+K4_INLINING_START(true); -- ignored
 
 local f = function()
   print('Hello');
-  K4_INLINE(); -- wrong! (error)
+  K4_INLINING_START(false); -- ignored as not called at function start
 end;
 ```
