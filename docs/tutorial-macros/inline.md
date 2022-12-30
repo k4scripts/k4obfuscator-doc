@@ -10,7 +10,7 @@ sidebar_position: 1
 Inline the current function and remove it from functions list.
 
 :::info
-If the passed <bool> is `true`, all sub functions will be inlined.
+If the passed `bool` is `true`, all sub functions will be inlined.
 :::
 
 ℹ️ Suggested for non-recursive functions, as deep recursions could lead to errors.
