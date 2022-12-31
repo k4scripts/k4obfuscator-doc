@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 6
 ---
 
-# K4_INLINE
+# K4_INLINING_START
 ```md
 <table> K4_INLINING_START(<bool>)
 ```
@@ -10,7 +10,8 @@ sidebar_position: 1
 Inline the current function and remove it from functions list.
 
 :::info
-If the passed <bool> is `true`, all sub functions will be inlined.
+If the passed `bool` is `true`, all sub functions will be inlined.
+> This macro is currently experimental and may lead to errors.
 :::
 
 ℹ️ Suggested for non-recursive functions, as deep recursions could lead to errors.
@@ -63,7 +64,7 @@ f();
 
 ```lua
 -- #script.lua
-K4_INLINING_START(true); -- ignored
+K4_INLINING_START(true); -- ignored as main chunk is already inlined
 
 local f = function()
   print('Hello');

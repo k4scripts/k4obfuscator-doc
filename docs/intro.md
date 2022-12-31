@@ -1,21 +1,36 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 ---
 
 # Tutorial Intro
 
-Let's discover **K4Obfuscator in less than 5 minutes**.
+Let's discover **K4Obfuscator in less than 5 minutes** ⌛.
+![K4Obfuscator](img/obfuscator.png)
+
+### What you'll need
+
+- [Discord](https://k4scripts.xyz/discord)
+- [Key](#getting-started)
+- [Lua Script](https://www.lua.org/manual/5.1)
+
+## Syntax
+K4Obfuscator is built on top a custom lua parser which is able to transform special syntax into a supported Lua 5.1 syntax
+
+**Supported syntax:**
+* Lua 5.1 base syntax
+* Compound operators
+* Continue keyword
+* Typed Lua
+* C style comments...
+
+:::info
+We are always open to syntax support requests! 🎉🎉
+:::
 
 ## Getting Started
 
 Get started by **requesting an obfuscation key from the K4Obfuscator bot**.
 ![Getting the key](img/intro_0.gif)
-
-### What you'll need
-
-- [Discord](https://k4scripts.xyz/discord)
-- [Lua Script](https://www.lua.org/manual/5.1/):
-  * You must follow Lua 5.1 syntax, as VM generation is developed around it.
 
 ## Obfuscate your first script
 
@@ -35,4 +50,7 @@ print(f());
 
 Start obfuscating by running `/obfuscate <key>`.
 
-The bot will prompt you a display with buttons that will help you setup your obfuscation environment: *Cooming soon*
+The bot will prompt you a display with buttons that will help you setup your obfuscation environment:
+![Obfuscating](img/intro_1.gif)
+
+[Download Output](img/obfuscated.lua)
