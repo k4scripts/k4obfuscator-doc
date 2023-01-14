@@ -18,7 +18,8 @@ Maximize the vm control flow for the specified instructions range with additiona
 
 local unlock = function(pass)
   K4_MAX_CFLOW_START()
-  K4_INLINING_START(); -- ignored as no parameters are passed
+  -- ...
+  local function check() end; -- even sub functions will be protected
   -- ...
   return pass == '123';
   K4_MAX_CFLOW_END()
